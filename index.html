@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vignesh G | Founder of VIRHINO — Freelancer & Digital Creator</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="Personal portfolio of Vignesh G — Founder of VIRHINO, Freelancer, and Digital Creator based in Chennai, India. Specializing in social media management, graphic design, video editing, web development, and digital solutions.">
+  <meta name="keywords" content="Vignesh G, VIRHINO, Social Media Management, Graphic Design, Video Editing, Digital Marketing, Website Development, AI Solutions, Chennai Freelancer">
+  <meta name="author" content="Vignesh G">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Social Media Preview -->
+  <meta property="og:title" content="Vignesh G | Founder of VIRHINO — Freelancer & Digital Creator">
+  <meta property="og:description" content="Helping businesses grow through social media, creative design, video editing, websites, and practical digital solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="VIGNESH G.jpg">
+  
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b0d11'/><text x='50%' y='68%' font-family='sans-serif' font-weight='800' font-size='55' fill='%23f5a623' text-anchor='middle'>V</text></svg>">
+</head>
+<body>
+
+  <!-- Background Ambient Glow Effects -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- ==============================================
+       HEADER & NAVIGATION
+       ============================================== -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      
+      <!-- Wordmark Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Vignesh G Portfolio Homepage">
+        <span class="logo-name">VIGNESH G</span>
+        <span class="logo-sub"><span class="badge-dot"></span> Founder of VIRHINO</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action & Mobile Menu Toggle -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-sm btn-primary header-cta">
+          <span>Let's Work Together</span>
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+          <span class="hamburger-line line-3"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#services" class="mobile-nav-link">Services</a></li>
+          <li><a href="#work" class="mobile-nav-link">Work</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li><a href="#education" class="mobile-nav-link">Education</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <a href="#contact" class="btn btn-primary btn-block mobile-cta">
+            <span>Let's Work Together</span>
+          </a>
+          <a href="https://wa.me/919499912508?text=Hi%20Vignesh,%20I%20would%20like%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block whatsapp-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- ==============================================
+         SECTION 1: HERO
+         ============================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          
+          <div class="status-badge" role="status">
+            <span class="status-pulse" aria-hidden="true"></span>
+            <span class="status-text">Open to Freelance Projects</span>
+          </div>
+
+          <p class="hero-eyebrow">FOUNDER OF VIRHINO · FREELANCER · DIGITAL CREATOR</p>
+
+          <h1 class="hero-title">
+            I turn ideas into <br>
+            <span class="text-gradient-gold">digital experiences.</span>
+          </h1>
+
+          <p class="hero-description">
+            I help businesses grow their online presence through social media, creative design, video content, websites, and practical digital solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#work" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+
+            <a href="https://wa.me/919499912508?text=Hi%20Vignesh,%20I%20would%20like%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="btn-quick-wa" aria-label="Message Vignesh on WhatsApp" title="Chat on WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Highlights / Quick Trust Metrics -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">~1 Yr</span>
+              <span class="stat-label">Client Work</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Client Profiles</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">7</span>
+              <span class="stat-label">Core Services</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">Chennai</span>
+              <span class="stat-label">Tamil Nadu, IN</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Portrait Image & Floating Badges -->
+        <div class="hero-visual">
+          <div class="portrait-card">
+            
+            <div class="portrait-glow-ring" aria-hidden="true"></div>
+
+            <!-- Authentic Portrait Photo of Vignesh G -->
+            <div class="portrait-image-wrapper">
+              <img 
+                src="VIGNESH G.jpg" 
+                alt="Portrait of Vignesh G, Founder of VIRHINO" 
+                class="portrait-img" 
+                width="600" 
+                height="800"
+                fetchpriority="high"
+              >
+            </div>
+
+            <!-- Floating Studio Card 1: Founder -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon-wrap gold-bg">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-title">VIRHINO</span>
+                <span class="badge-desc">Digital Solutions</span>
+              </div>
+            </div>
+
+            <!-- Floating Studio Card 2: B.Tech Background -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon-wrap amber-bg">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-title">Creative + Tech</span>
+                <span class="badge-desc">AI &amp; Data Science</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 2: ABOUT
+         ============================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Where Creative Storytelling Meets <span class="text-gradient-gold">Practical Tech</span></h2>
+          <p class="section-subtitle">
+            I’m a multidisciplinary creator and freelancer based in Chennai, dedicated to giving businesses the online visibility they deserve.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-bio-card">
+            <h3 class="about-heading">Hi, I'm Vignesh G.</h3>
+            <p class="about-lead">
+              As the founder of <strong>VIRHINO</strong>, I partner with entrepreneurs, local brands, and growing businesses to elevate their digital presence through tailored content, sharp visual design, dynamic video editing, and reliable web experiences.
+            </p>
+            <p class="about-paragraph">
+              My academic background in <strong>B.Tech Artificial Intelligence &amp; Data Science</strong> gives me a structured, analytical way of thinking. While I don't overwhelm clients with complex jargon, this technical grounding allows me to look at digital marketing and website solutions through a lens of data, clean design, and practical execution.
+            </p>
+            <p class="about-paragraph">
+              Whether you need regular social media content that keeps your followers hooked, eye-catching posters for your next sale, punchy Instagram Reels, or a modern website that turns visitors into customers, I ensure every deliverable aligns with your business goals.
+            </p>
+
+            <div class="about-highlights-list">
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <div>
+                  <strong>Creative Strategy:</strong> Content calendars and designs crafted specifically for your audience.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <div>
+                  <strong>Client-First Communication:</strong> Prompt updates, transparent timelines, and feedback-driven work.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <div>
+                  <strong>Practical Problem-Solving:</strong> Combining visual taste with functional digital tools.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                  <line x1="7" y1="2" x2="7" y2="22"></line>
+                  <line x1="17" y1="2" x2="17" y2="22"></line>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <line x1="2" y1="7" x2="7" y2="7"></line>
+                  <line x1="2" y1="17" x2="7" y2="17"></line>
+                  <line x1="17" y1="17" x2="22" y2="17"></line>
+                  <line x1="17" y1="7" x2="22" y2="7"></line>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Creative Studio Mindset</h4>
+                <p>High aesthetic standards across Instagram, posters, videos, and branding that make your business stand out.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Web &amp; Software Foundation</h4>
+                <p>Clean HTML, CSS, JavaScript, and custom digital tools to build modern, responsive business touchpoints.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M16 12l-4-4-4 4M12 16V9"></path>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Data &amp; AI Curiosity</h4>
+                <p>Harnessing practical AI tools and workflow automations to work faster and deliver smarter outcomes.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="pillar-content">
+                <h4>Reliable Freelance Partner</h4>
+                <p>Honest collaboration, realistic commitments, and direct one-on-one attention from project start to finish.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 3: SERVICES
+         ============================================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title">What I Can Do <span class="text-gradient-gold">For Your Business</span></h2>
+          <p class="section-subtitle">
+            Simple, client-friendly solutions designed to build your brand and streamline your operations.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service 1: Social Media Management -->
+          <div class="service-card" data-service-name="Social Media Management">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Social Media Management</h3>
+            <p class="service-desc">
+              Instagram &amp; Facebook management, structured monthly content planning, engaging captions, scheduled publishing, and cohesive brand consistency.
+            </p>
+            <ul class="service-features">
+              <li>Profile optimization &amp; bio setup</li>
+              <li>Monthly content calendar &amp; captions</li>
+              <li>Hashtag research &amp; audience targeting</li>
+              <li>Feed layout aesthetic &amp; consistency</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="Social Media Management">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 2: Graphic Design -->
+          <div class="service-card" data-service-name="Graphic Design">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Graphic Design</h3>
+            <p class="service-desc">
+              Custom social media posts, promotional posters, product catalogues, display banners, and festive creatives that capture attention.
+            </p>
+            <ul class="service-features">
+              <li>High-resolution social media posts &amp; carousels</li>
+              <li>Business promotional posters &amp; flyers</li>
+              <li>Product catalogues &amp; digital menus</li>
+              <li>Festival &amp; event special greeting banners</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="Graphic Design">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 3: Video Editing -->
+          <div class="service-card" data-service-name="Video Editing">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+              </svg>
+            </div>
+            <h3 class="service-title">Video Editing</h3>
+            <p class="service-desc">
+              Fast-paced short-form videos, Instagram Reels, dynamic subtitles, and promotional video edits that drive retention and shares.
+            </p>
+            <ul class="service-features">
+              <li>Vertical video editing for Reels &amp; Shorts</li>
+              <li>Synchronized subtitles &amp; text pop-ups</li>
+              <li>Sound effects, music curation &amp; transitions</li>
+              <li>Product spotlight &amp; service showcase edits</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="Video Editing">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 4: Digital Marketing Support -->
+          <div class="service-card" data-service-name="Digital Marketing Support">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Digital Marketing Support</h3>
+            <p class="service-desc">
+              Actionable content ideas, campaign creatives, community engagement support, and basic metrics review to track what works.
+            </p>
+            <ul class="service-features">
+              <li>Creative content ideas &amp; trend alignment</li>
+              <li>Campaign creative sets for promotions</li>
+              <li>Audience engagement &amp; comment monitoring</li>
+              <li>Basic performance review &amp; improvement tips</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="Digital Marketing Support">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 5: Website Development -->
+          <div class="service-card" data-service-name="Website Development">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Website Development</h3>
+            <p class="service-desc">
+              Fast, responsive business websites, landing pages, and portfolio sites crafted to look stunning on both mobile phones and laptops.
+            </p>
+            <ul class="service-features">
+              <li>Custom responsive business landing pages</li>
+              <li>Clean, semantic HTML, CSS &amp; JavaScript</li>
+              <li>Mobile-first design with fast loading speeds</li>
+              <li>WhatsApp &amp; contact form integrations</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="Website Development">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 6: AI Product Development -->
+          <div class="service-card" data-service-name="AI Product Development">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a4 4 0 0 0-4 4v1H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z"></path>
+                <circle cx="9" cy="13" r="1"></circle>
+                <circle cx="15" cy="13" r="1"></circle>
+                <path d="M10 17h4"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">AI Product Development</h3>
+            <p class="service-desc">
+              Practical AI-assisted tools, workflow prototypes, and intelligent integrations explained clearly and built for everyday use.
+            </p>
+            <ul class="service-features">
+              <li>Smart prompt-based workflow assistance</li>
+              <li>Prototype AI apps for specific business tasks</li>
+              <li>Content generation &amp; automation setups</li>
+              <li>Clear, non-technical explanations &amp; training</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="AI Product Development">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Service 7: Software & Digital Solutions -->
+          <div class="service-card service-card-featured" data-service-name="Software & Digital Solutions">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <h3 class="service-title">Software &amp; Digital Solutions</h3>
+            <p class="service-desc">
+              Lightweight business tools, interactive dashboards, and customized workflow solutions under my brand <strong>VIRHINO</strong>.
+            </p>
+            <ul class="service-features">
+              <li>Internal clinic &amp; small business dashboards</li>
+              <li>Data organization &amp; structured spreadsheets</li>
+              <li>Digital workflow &amp; client intake systems</li>
+              <li>Tailored tools built to save your business time</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-prefill="Software & Digital Solutions">
+              <span>Discuss a project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 4: SELECTED WORK / PORTFOLIO
+         ============================================== -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Portfolio &amp; Clients</span>
+          <h2 class="section-title">Selected Work &amp; <span class="text-gradient-gold">Client Profiles</span></h2>
+          <p class="section-subtitle">
+            A showcase of client accounts I have managed, creative design work, and featured digital projects.
+          </p>
+          <div class="clarity-note">
+            <span class="info-badge">Note</span> 
+            Client accounts listed below are managed profile references. Links open their public Instagram pages.
+          </div>
+        </div>
+
+        <!-- Filter Buttons Bar -->
+        <div class="portfolio-filter-container">
+          <div class="filter-group" role="tablist" aria-label="Portfolio Filter Categories">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+              All Items <span class="filter-count">(8)</span>
+            </button>
+            <button class="filter-btn" data-filter="social" role="tab" aria-selected="false">
+              Social Media
+            </button>
+            <button class="filter-btn" data-filter="graphic" role="tab" aria-selected="false">
+              Graphic Design
+            </button>
+            <button class="filter-btn" data-filter="video" role="tab" aria-selected="false">
+              Video Editing
+            </button>
+            <button class="filter-btn" data-filter="digital" role="tab" aria-selected="false">
+              Web &amp; Digital Products
+            </button>
+          </div>
+        </div>
+
+        <!-- Portfolio Cards Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+
+          <!-- Card 1: Mahalakshmi Solai (Social Media) -->
+          <article class="portfolio-card" data-category="social">
+            <div class="card-visual visual-social-1">
+              <div class="visual-overlay">
+                <span class="category-pill">Social Media</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="1.5">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span class="art-caption">@mahalakshmi_solai</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Client Profile Reference</span>
+                <span class="meta-niche">Agriculture &amp; Natural Living</span>
+              </div>
+              <h3 class="card-title">Mahalakshmi Solai</h3>
+              <p class="card-desc">
+                Social media content strategy, organic feed consistency, post planning, and community presence support for sustainable lifestyle and agricultural offerings.
+              </p>
+              <div class="card-actions">
+                <a href="https://www.instagram.com/mahalakshmi_solai/" target="_blank" rel="noopener noreferrer" class="link-external">
+                  <span>View Instagram Profile</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Oven Magics (Social Media & Graphic Design) -->
+          <article class="portfolio-card" data-category="social graphic">
+            <div class="card-visual visual-food">
+              <div class="visual-overlay">
+                <span class="category-pill">Social &amp; Design</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="1.5">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+                <span class="art-caption">@ovenmagicsbakes</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Client Profile Reference</span>
+                <span class="meta-niche">Bakery &amp; Desserts</span>
+              </div>
+              <h3 class="card-title">Oven Magics Bakes</h3>
+              <p class="card-desc">
+                Eye-catching bakery promotional creatives, appetizing product showcase posts, festival announcement flyers, and coordinated Instagram scheduling.
+              </p>
+              <div class="card-actions">
+                <a href="https://www.instagram.com/ovenmagicsbakes/" target="_blank" rel="noopener noreferrer" class="link-external">
+                  <span>View Instagram Profile</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: V4 Interior Designers (Video Editing & Social) -->
+          <article class="portfolio-card" data-category="video social">
+            <div class="card-visual visual-interior">
+              <div class="visual-overlay">
+                <span class="category-pill">Video &amp; Social</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="1.5">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span class="art-caption">@v4.interior.designears</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Client Profile Reference</span>
+                <span class="meta-niche">Architecture &amp; Interior</span>
+              </div>
+              <h3 class="card-title">V4 Interior Designers</h3>
+              <p class="card-desc">
+                Showcasing completed interior projects through stylish video cuts, walkthrough Reels, project highlight graphics, and audience-engaging content.
+              </p>
+              <div class="card-actions">
+                <a href="https://www.instagram.com/v4.interior.designears/" target="_blank" rel="noopener noreferrer" class="link-external">
+                  <span>View Instagram Profile</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: JPK Elite Wear (Graphic Design) -->
+          <article class="portfolio-card" data-category="graphic">
+            <div class="card-visual visual-fashion">
+              <div class="visual-overlay">
+                <span class="category-pill">Graphic Design</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="1.5">
+                  <path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path>
+                </svg>
+                <span class="art-caption">@jpk_elite_wear</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Client Profile Reference</span>
+                <span class="meta-niche">Apparel &amp; Fashion</span>
+              </div>
+              <h3 class="card-title">JPK Elite Wear</h3>
+              <p class="card-desc">
+                Promotional campaign graphics, seasonal sale posters, clothing catalogue displays, and high-impact social banners tailored for fashion retail.
+              </p>
+              <div class="card-actions">
+                <a href="https://www.instagram.com/jpk_elite_wear/" target="_blank" rel="noopener noreferrer" class="link-external">
+                  <span>View Instagram Profile</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Sri Devi Studio Ayanavaram (Video & Social) -->
+          <article class="portfolio-card" data-category="video social">
+            <div class="card-visual visual-studio">
+              <div class="visual-overlay">
+                <span class="category-pill">Video &amp; Social</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="1.5">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+                <span class="art-caption">@sridevistudio_aynavaram</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Client Profile Reference</span>
+                <span class="meta-niche">Photography &amp; Events</span>
+              </div>
+              <h3 class="card-title">Sri Devi Studio Ayanavaram</h3>
+              <p class="card-desc">
+                Engaging photography portfolio posts, wedding &amp; event highlight reels, caption writing, and social page maintenance for an established photo studio.
+              </p>
+              <div class="card-actions">
+                <a href="https://www.instagram.com/sridevistudio_aynavaram/" target="_blank" rel="noopener noreferrer" class="link-external">
+                  <span>View Instagram Profile</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Invicti (Social & Digital Marketing) -->
+          <article class="portfolio-card" data-category="social digital">
+            <div class="card-visual visual-corporate">
+              <div class="visual-overlay">
+                <span class="category-pill">Digital Marketing</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="1.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <span class="art-caption">@invicti_pvt</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Client Profile Reference</span>
+                <span class="meta-niche">Corporate &amp; Business Services</span>
+              </div>
+              <h3 class="card-title">Invicti</h3>
+              <p class="card-desc">
+                Consistent digital branding, professional social posts, clean informational graphics, and strategic positioning for corporate communication.
+              </p>
+              <div class="card-actions">
+                <a href="https://www.instagram.com/invicti_pvt/" target="_blank" rel="noopener noreferrer" class="link-external">
+                  <span>View Instagram Profile</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7: Featured Brand Spotlight — VIRHINO -->
+          <article class="portfolio-card spotlight-card" data-category="digital">
+            <div class="card-visual visual-brand">
+              <div class="visual-overlay">
+                <span class="category-pill gold-pill">Brand Feature</span>
+              </div>
+              <div class="card-icon-art">
+                <div class="brand-monogram">VIRHINO</div>
+                <span class="art-caption">Digital Solutions &amp; Creative Agency</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag gold-tag">Independent Brand</span>
+                <span class="meta-niche">Creative &amp; Digital Services</span>
+              </div>
+              <h3 class="card-title">VIRHINO — Digital Solutions</h3>
+              <p class="card-desc">
+                My personal digital solutions initiative founded to help businesses thrive. Uniting social media marketing, bespoke graphic design, video editing, and modern web development under one banner.
+              </p>
+              <div class="card-actions">
+                <a href="#contact" class="btn btn-sm btn-outline">
+                  <span>Partner With VIRHINO</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 8: Featured Project Spotlight — Royal Care Clinic / ClinicFlow -->
+          <article class="portfolio-card spotlight-card" data-category="digital">
+            <div class="card-visual visual-tech">
+              <div class="visual-overlay">
+                <span class="category-pill blue-pill">Digital Project</span>
+              </div>
+              <div class="card-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.5">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+                <span class="art-caption">ClinicFlow / Royal Care Clinic</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="meta-tag">Project Spotlight</span>
+                <span class="meta-niche">Healthcare &amp; Management</span>
+              </div>
+              <h3 class="card-title">Royal Care Clinic / ClinicFlow</h3>
+              <p class="card-desc">
+                A digital healthcare management and analytics project built to simplify patient appointment scheduling, record tracking, and operational visibility for clinic staff.
+              </p>
+              <div class="card-actions">
+                <span class="badge-tech">HTML / CSS / JS</span>
+                <span class="badge-tech">Analytics UI</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 5: SKILLS & CAPABILITIES
+         ============================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Skills &amp; Toolkit</span>
+          <h2 class="section-title">Practical Capabilities <span class="text-gradient-gold">I Bring to the Table</span></h2>
+          <p class="section-subtitle">
+            Grounded skills honed across real client projects, creative design tools, and technical studies.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Creative Skills -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                  <path d="M2 2l7.586 7.586"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Creative &amp; Visual</h3>
+                <span class="skill-cat-sub">Design, video, and content</span>
+              </div>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">Social Media Content</span>
+              <span class="skill-chip">Graphic Design</span>
+              <span class="skill-chip">Short-Form Video Editing</span>
+              <span class="skill-chip">Reels &amp; Subtitling</span>
+              <span class="skill-chip">Content Planning</span>
+              <span class="skill-chip">Posters &amp; Banners</span>
+              <span class="skill-chip">Visual Storytelling</span>
+              <span class="skill-chip">Feed Aesthetics</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Digital Marketing -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
+                  <path d="M17 6h6v6"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Digital Marketing</h3>
+                <span class="skill-cat-sub">Audience reach and brand consistency</span>
+              </div>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">Instagram Management</span>
+              <span class="skill-chip">Facebook Marketing</span>
+              <span class="skill-chip">Brand Consistency</span>
+              <span class="skill-chip">Digital Promotion</span>
+              <span class="skill-chip">Audience Engagement</span>
+              <span class="skill-chip">Hashtag Strategy</span>
+              <span class="skill-chip">Basic Performance Analytics</span>
+              <span class="skill-chip">Campaign Support</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Web & Software Development -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Web &amp; Development</h3>
+                <span class="skill-cat-sub">Code, responsiveness, and web logic</span>
+              </div>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">HTML5</span>
+              <span class="skill-chip">CSS3</span>
+              <span class="skill-chip">JavaScript (Vanilla)</span>
+              <span class="skill-chip">Responsive Web Design</span>
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">SQL</span>
+              <span class="skill-chip">Landing Page Optimization</span>
+              <span class="skill-chip">Git &amp; Version Control</span>
+            </div>
+          </div>
+
+          <!-- Category 4: AI & Data Solutions -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">AI &amp; Data Insights</h3>
+                <span class="skill-cat-sub">Practical intelligence and workflows</span>
+              </div>
+            </div>
+            <div class="chips-list">
+              <span class="skill-chip">AI/ML Project Experience</span>
+              <span class="skill-chip">Data Analysis</span>
+              <span class="skill-chip">Business Dashboards</span>
+              <span class="skill-chip">Prompt Engineering</span>
+              <span class="skill-chip">Workflow Automation</span>
+              <span class="skill-chip">Healthcare Clinic Analytics</span>
+              <span class="skill-chip">Data Visualization</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 6: EDUCATION & BACKGROUND
+         ============================================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        
+        <div class="education-card">
+          <div class="education-header">
+            <div class="edu-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div>
+              <span class="edu-label">Academic Background</span>
+              <h3 class="edu-degree">B.Tech in Artificial Intelligence &amp; Data Science</h3>
+              <p class="edu-institution">Dhaanish Ahmed College of Engineering, Chennai</p>
+            </div>
+          </div>
+
+          <p class="edu-description">
+            Combining analytical engineering principles, software development fundamentals, and data problem-solving with creative design and practical digital entrepreneurship.
+          </p>
+
+          <div class="edu-footer">
+            <span class="edu-pill">📍 Chennai, Tamil Nadu</span>
+            <span class="edu-pill">💻 AI &amp; Software Focus</span>
+            <span class="edu-pill">🎨 Creative Digital Application</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 7: HOW WE WORK (PROCESS)
+         ============================================== -->
+    <section class="section process-section">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">How I Work</span>
+          <h2 class="section-title">Simple, Transparent <span class="text-gradient-gold">Project Workflow</span></h2>
+          <p class="section-subtitle">
+            A hassle-free collaboration process built to respect your time and deliver high quality.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          
+          <div class="process-card">
+            <span class="process-number">01</span>
+            <h4>Discovery &amp; Goals</h4>
+            <p>We discuss your business needs, target audience, brand aesthetic, and specific deliverables.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">02</span>
+            <h4>Strategy &amp; Concept</h4>
+            <p>I draft the content calendar, design mockups, video cut plans, or web layout structure for your approval.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">03</span>
+            <h4>Creation &amp; Refinement</h4>
+            <p>Production of high-quality assets, prompt revisions based on your feedback, and final polishing.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">04</span>
+            <h4>Delivery &amp; Launch</h4>
+            <p>Ready-to-publish files, scheduled social posts, or live website deployment with ongoing support.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 8: CONTACT
+         ============================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Create Something <span class="text-gradient-gold">Impactful Together</span></h2>
+          <p class="section-subtitle">
+            Have a project in mind, need monthly social media support, or want a new website? Reach out anytime!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Information & Quick Actions -->
+          <div class="contact-info-panel">
+            
+            <h3 class="panel-title">Direct Contact Information</h3>
+            <p class="panel-subtitle">Feel free to message, email, or call. I respond promptly to all business inquiries.</p>
+
+            <div class="contact-cards-stack">
+              
+              <!-- Email Card -->
+              <a href="mailto:virhino.vp@gmail.com" class="contact-item-card">
+                <div class="contact-icon email-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="detail-label">Email Me</span>
+                  <strong class="detail-value">virhino.vp@gmail.com</strong>
+                </div>
+                <span class="contact-arrow">→</span>
+              </a>
+
+              <!-- WhatsApp Card -->
+              <a href="https://wa.me/919499912508?text=Hi%20Vignesh,%20I%20would%20like%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="contact-item-card whatsapp-highlight">
+                <div class="contact-icon whatsapp-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="detail-label">WhatsApp Fast Chat</span>
+                  <strong class="detail-value">+91 94999 12508</strong>
+                </div>
+                <span class="contact-arrow">→</span>
+              </a>
+
+              <!-- Phone Call Card -->
+              <a href="tel:+919499912508" class="contact-item-card">
+                <div class="contact-icon phone-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="detail-label">Phone Call</span>
+                  <strong class="detail-value">+91 94999 12508</strong>
+                </div>
+                <span class="contact-arrow">→</span>
+              </a>
+
+              <!-- Location Card -->
+              <div class="contact-item-card non-clickable">
+                <div class="contact-icon location-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="detail-label">Location</span>
+                  <strong class="detail-value">Chennai, Tamil Nadu, India</strong>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="copy-email-box">
+              <span>Quick copy:</span>
+              <button type="button" class="btn-copy-email" id="copyEmailBtn" aria-label="Copy email address to clipboard">
+                <span id="copyEmailText">virhino.vp@gmail.com</span>
+                <span class="copy-badge" id="copyBadge">Copy</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form with Web3Forms Integration -->
+          <div class="contact-form-panel">
+            <h3 class="panel-title">Send a Message</h3>
+            <p class="panel-subtitle">Fill in the details below to send a direct message to Vignesh G.</p>
+
+            <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+              <!-- Web3Forms Access Key & Configuration -->
+              <input type="hidden" name="access_key" value="b8af85f6-e117-4ce1-a854-b66050f42a25">
+              <input type="hidden" name="from_name" value="Vignesh G Portfolio">
+              <input type="hidden" name="subject" id="web3Subject" value="New Project Inquiry - Vignesh G Portfolio">
+              <input type="checkbox" name="botcheck" style="display: none;">
+              
+              <div class="form-group">
+                <label for="userName" class="form-label">Your Name <span class="required">*</span></label>
+                <input 
+                  type="text" 
+                  id="userName" 
+                  name="name" 
+                  class="form-control" 
+                  placeholder="e.g. Rahul Sharma" 
+                  required
+                >
+                <div class="error-msg" id="nameError">Please enter your name (at least 2 characters).</div>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail" class="form-label">Email Address <span class="required">*</span></label>
+                <input 
+                  type="email" 
+                  id="userEmail" 
+                  name="email" 
+                  class="form-control" 
+                  placeholder="e.g. rahul@example.com" 
+                  required
+                >
+                <div class="error-msg" id="emailError">Please enter a valid email address.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="userService" class="form-label">Service Needed <span class="required">*</span></label>
+                <select id="userService" name="service" class="form-control" required>
+                  <option value="" disabled selected>Select a service...</option>
+                  <option value="Social Media Management">Social Media Management</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="Video Editing">Video Editing</option>
+                  <option value="Digital Marketing Support">Digital Marketing Support</option>
+                  <option value="Website Development">Website Development</option>
+                  <option value="AI Product Development">AI Product Development</option>
+                  <option value="Software & Digital Solutions">Software &amp; Digital Solutions</option>
+                  <option value="General Inquiry">General Inquiry / Other</option>
+                </select>
+                <div class="error-msg" id="serviceError">Please choose a service you are interested in.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage" class="form-label">Project Details / Message <span class="required">*</span></label>
+                <textarea 
+                  id="userMessage" 
+                  name="message" 
+                  class="form-control textarea" 
+                  rows="4" 
+                  placeholder="Tell me a bit about your brand, goals, or timeline..." 
+                  required
+                ></textarea>
+                <div class="error-msg" id="messageError">Please enter at least 10 characters for your message.</div>
+              </div>
+
+              <div class="form-notice">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="notice-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                <span>Your message is securely delivered to <strong>virhino.vp@gmail.com</strong>. You can also chat directly on WhatsApp for faster response!</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitFormBtn">
+                <span>Send Message</span>
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <div id="formSuccessToast" class="form-success-toast" role="alert" style="display: none;">
+                ✓ Thank you! Your message has been sent successfully to Vignesh G. I'll get back to you shortly!
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand">
+          <div class="brand-logo footer-logo">
+            <span class="logo-name">VIGNESH G</span>
+            <span class="logo-sub">Founder of VIRHINO</span>
+          </div>
+          <p class="footer-tagline">
+            Creative ideas. Practical digital solutions.
+          </p>
+          <p class="footer-location">
+            Based in Chennai, Tamil Nadu, India · Serving clients worldwide.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-list">
+            <li><a href="#services">Social Media Management</a></li>
+            <li><a href="#services">Graphic Design</a></li>
+            <li><a href="#services">Video Editing</a></li>
+            <li><a href="#services">Website Development</a></li>
+            <li><a href="#services">Software Solutions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-list">
+            <li>
+              <a href="mailto:virhino.vp@gmail.com" class="footer-link-flex">
+                <span>virhino.vp@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+919499912508" class="footer-link-flex">
+                <span>+91 94999 12508</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/919499912508" target="_blank" rel="noopener noreferrer" class="footer-link-flex">
+                <span>WhatsApp Chat</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> <strong>Vignesh G</strong> · Founder of VIRHINO. All rights reserved.
+        </p>
+        <a href="#hero" class="back-to-top" id="backToTopBtn" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Sticky WhatsApp Quick Chat Button (Mobile & Desktop) -->
+  <aside aria-label="Instant WhatsApp Chat">
+    <a 
+      href="https://wa.me/919499912508?text=Hi%20Vignesh,%20I%20would%20like%20to%20discuss%20a%20project!" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="floating-whatsapp" 
+      aria-label="Direct WhatsApp Chat with Vignesh G"
+      title="Chat on WhatsApp (+91 94999 12508)"
+    >
+      <span class="floating-wa-pulse" aria-hidden="true"></span>
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff" aria-hidden="true">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
